@@ -8,7 +8,7 @@ In windows powershell (Run as Administrator) run
 
     wsl --install -d ubuntu
 
-If you face an error while opening the installed distro in wsl (Even afterrestarting the system), try
+If you face an error while opening the installed distro in wsl (Even after restarting the system), try
 
     wsl --update
 
