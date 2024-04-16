@@ -65,7 +65,7 @@ To install yarn we need to install npm first
 
 Then we install the latest version of yarn using
 
-    sudo npm install -g yarn
+    npm install -g yarn
 
 #### Redis 6
 Run the following command to install the latest version of redis
