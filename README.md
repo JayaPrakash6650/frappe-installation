@@ -13,7 +13,7 @@ If you face an error while opening the installed distro in wsl (Even after resta
     wsl --update
 
 
-After creating a new username and password, run 
+After creating a new username and password, run the following in the Linux terminal
     
     sudo apt-get update
 
