@@ -1,7 +1,7 @@
 # Frappe Web Framework Installation
 A list of various frappe installation methods documented for future reference.
 
-## Version 15
+## Version 15 (Ubuntu 22.04 LTS)
 <h3><b> Step 1: Install WSL and Ubuntu </b></h3>
 
 In windows powershell (Run as Administrator) run 
@@ -25,16 +25,16 @@ Followed by
 
 We need to install the following prerequisite packages for Frappe V15
 
-    Python 3.10 or 3.11    pip 20+  
+    Python 3.11    pip 20+  
     Node.js 18             yarn 1.12+ 
     MariaDB 10.6.6+        cron
     Redis 6                NGINX
     wkhtmltopdf (version 0.12.6 with patched qt)
 
-#### Python 3.10 & pip 20+
+#### Python 3.11 & pip 20+
 Use the following command to install the latest version of python 3
     
-    sudo apt-get install python3
+    sudo apt-get install python3.11
 
 Then run the following to install the latest version of pip
 
