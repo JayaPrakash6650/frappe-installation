@@ -107,7 +107,7 @@ Add the following to the end of the file and save
 
 Then restart the server
 
-    sudo service mysql restart
+    sudo service mariadb restart
 
 Or stop and start the server if you face any issues with restart
 
