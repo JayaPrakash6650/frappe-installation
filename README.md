@@ -124,7 +124,7 @@ Install frappe bench using the following pip command
 
 Now init a new bench instance (You can give any name after init in the following command)
 
-    bench init frappe-bench --frappe-branch version-15
+    bench init frappe-bench --frappe-branch version-15 --python python3.11
 
 #### Create a new site
 Now cd into the created bench folder (frappe-bench in this case) and create a new site.
