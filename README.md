@@ -43,7 +43,7 @@ Then run the following to install the latest version of pip
 We also need the venv package to install frappe
 
     sudo apt-get install virtualenv
-    sudo apt install python3-venv
+    sudo apt install python3.11-venv
     
 #### Node.js 18
 To install node.js we first install nvm
