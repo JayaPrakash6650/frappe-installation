@@ -81,6 +81,14 @@ Run the following set of commands to install the correct version of wkhtmltopdf 
     sudo dpkg -i wkhtmltox_0.12.6.1-2.jammy_amd64.deb
     rm wkhtmltox_0.12.6.1-2.jammy_amd64.deb
 
+Check if the correct version (With patched qt) is installed using the following command
+
+    wkhtmltopdf -V
+
+if you get a "No such file or directory" error, symlink the following
+
+    ln -s /usr/local/bin/wkhtmltopdf /usr/bin/wkhtmltopdf
+
 #### mariadb 10.6.6+
 Run the following commands to install mariadb
 
