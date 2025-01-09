@@ -36,6 +36,12 @@ Use the following command to install the latest version of python 3
     
     sudo apt-get install python3.11
 
+If you face any error like python3.11 package does not exist, then try the following first
+
+    sudo add-apt-repository ppa:deadsnakes/ppa
+
+Then try apt-get install python3.11
+
 Then run the following to install the latest version of pip
 
     sudo apt install python3-pip
