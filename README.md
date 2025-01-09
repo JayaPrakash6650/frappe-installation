@@ -136,6 +136,12 @@ Install frappe bench using the following pip command
 
     sudo pip3 install frappe-bench
 
+If you face the "error: externally-managed-environment", create a venv and then install bench after activating that env.
+
+    python3.11 -m venv my-venv
+    my-venv/bin/pip3 install frappe-bench
+    /bin/source activate
+
 Now init a new bench instance (You can give any name after init in the following command)
 
     bench init frappe-bench --frappe-branch version-15 --python python3.11
