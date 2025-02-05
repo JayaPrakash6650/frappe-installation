@@ -6,7 +6,7 @@ A list of various frappe installation methods documented for future reference.
 
 In windows powershell (Run as Administrator) run 
 
-    wsl --install -d ubuntu
+    wsl --install -d Ubuntu-22.04
 
 If you face an error while opening the installed distro in wsl (Even after restarting the system), try
 
