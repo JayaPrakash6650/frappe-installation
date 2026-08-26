@@ -1,7 +1,4 @@
-# Frappe Web Framework Installation
-A list of various frappe installation methods documented for future reference.
-
-## Version 15 (Ubuntu 22.04 LTS)
+# Version 15 (Ubuntu 22.04 LTS)
 <h3><b> Step 1: Install WSL and Ubuntu </b></h3>
 
 In windows powershell (Run as Administrator) run 
